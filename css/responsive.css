@@ -1,0 +1,230 @@
+
+/* width 992px screen device */
+@media screen and (max-width: 992px) {
+    /* common css start */
+    .container {
+        max-width: 95%;
+    }
+    /* common css end */
+
+     /* header css start */
+     .header-row figure::after {
+        left: 49%;
+     }
+     nav ul li a {
+        font-size: 13px;
+     }
+    /* header css end */
+
+     /* main css start */
+
+     
+    /* about  css start */
+    #about-us {
+        padding: 50px 0;
+    }
+    .about-row {
+        height: 100%;
+        grid-gap: 51px 0;
+    }
+    .about-row article {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 5px 30px;
+    }
+    .about-row aside {
+        grid-column: 1 / -1;
+    }
+    /* about  css end */
+
+    /* gallery css start */
+    #gallery-images {
+        padding: 50px 0;
+    }
+    #gallery-images figure {
+        height: 100%;
+    }
+    #gallery-images figure img {
+        grid-column: span 4;
+    }
+
+    /* gallery css end */
+
+    /* contact css start */
+    .contact-row {
+        grid-gap: 50px;
+    }
+    .contact-add {
+        grid-column: 1 / 7;
+    }
+    .contact-form {
+        grid-column: 1 / -1;
+        text-align: center;
+        order: -1;
+    }
+    .contact-form form {
+        width: 50%;
+        margin: auto;
+    }
+    .social-icon {
+        grid-column: 7 /-1;
+        text-align: center;
+    }
+    .social-icon ul {
+        display: flex;
+    }
+
+    /* contact css end */    
+
+    /* main css end */
+
+    
+
+}
+
+/* width 768px screen device */
+@media screen and (max-width: 768px) {
+    /* common css start */
+    
+    /* common css end */
+
+     /* header css start */
+     .header-row figure img {
+        width: 90px;
+        height: 50px;
+    }
+    .header-row figure::after {
+        left: 41%;
+        font-size: 12px;
+    }
+    nav ul li a {
+        padding: 0px;
+    }
+    /* header css end */
+
+     /* main css start */
+
+     /* gallery css start */
+     #gallery-images figure img {
+        grid-column: span 6;
+    }
+    /* gallery css end */
+
+    /* main css end */
+
+    /* footer css start */
+
+    /* footer css end */
+
+}
+
+/* width 600px screen device */
+@media screen and (max-width: 600px) {
+    /* common css start */
+  
+    /* common css end */
+
+     /* header css start */
+     .header-row {
+        height: 100%;
+        padding: 15px 0;
+        grid-gap: 20px 0;
+     }
+     .header-row figure {
+         grid-column: 1 / -1;
+         justify-self: center;
+     }
+     .header-row figure::after {
+        left: 55%;
+    }
+    nav {
+        grid-column: 1 / -1;
+        align-self: center;
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li {
+        margin-right: 0px;
+        margin: 4px 0;
+    }
+    nav ul li a {
+        padding: 8px;
+        background: gray;
+    }
+    /* header css end */
+
+     /* main css start */
+
+     /* slider  css start */
+     #slider {
+        height: 40vh;
+     }
+
+    /* slider  css end */
+
+     /* about css start */
+     .about-row aside figure {
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+
+    /* about css end */
+
+    /* gallery css start */
+    #gallery-images figure {
+        grid-gap: 30px 0;
+        
+    }
+    #gallery-images figure img {
+        grid-column: span 12;
+    }
+
+    /* gallery css end */
+
+    /* contact css start */
+    .contact-row {
+        grid-gap: 50px 0;
+    }
+    .contact-form form {
+        width: 90%;
+    }
+    .contact-add {
+        grid-column: 1 / -1;
+    }
+    .social-icon {
+        grid-column: 1 /-1;
+    }
+
+    /* contact css end */
+
+
+    /* main css end */
+
+    /* footer css start */
+
+    /* footer css end */
+
+}
+
+/* width 350px screen device */
+@media screen and (max-width: 350px) {
+    /* common css start */
+  
+    /* common css end */
+
+     /* header css start */
+
+    /* header css end */
+
+     /* main css start */
+
+    /* main css end */
+
+    /* footer css start */
+
+    /* footer css end */
+
+}
